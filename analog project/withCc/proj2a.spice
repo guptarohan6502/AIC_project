@@ -1,0 +1,40 @@
+* SPICE3 file created from proj2.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_n9_71# a_n9_71# a_n31_103# w_n50_83# pfet w=654 l=73
++  ad=982 pd=126 as=8114 ps=696
+M1001 a_n31_103# a_110_n29# a_n36_n24# Gnd nfet w=1264 l=61
++  ad=4763 pd=398 as=4157 ps=464
+M1002 a_n31_103# a_n9_71# a_99_101# w_86_84# pfet w=654 l=73
++  ad=0 pd=0 as=660 ps=106
+M1003 a_n31_103# a_315_n43# a_n108_n141# Gnd nfet w=1264 l=61
++  ad=0 pd=0 as=4135 ps=428
+M1004 a_n9_71# a_n16_33# a_n36_n24# Gnd nfet w=67 l=5
++  ad=1643 pd=168 as=0 ps=0
+** SOURCE/DRAIN TIED
+M1005 a_n31_103# a_n31_103# a_n31_103# w_233_78# pfet w=884 l=5
++  ad=0 pd=0 as=0 ps=0
+M1006 a_n36_n24# a_n80_n148# a_n108_n141# Gnd nfet w=764 l=5
++  ad=0 pd=0 as=0 ps=0
+M1007 a_n80_n148# a_n80_n148# a_n108_n141# Gnd nfet w=67 l=5
++  ad=928 pd=122 as=0 ps=0
+C0 w_86_84# a_n9_71# 5.14fF
+C1 a_110_n29# a_n36_n24# 0.6fF
+C2 w_86_84# a_99_101# 0.6fF
+C3 w_n50_83# a_n31_103# 8.33fF
+C4 w_n50_83# a_n9_71# 7.47fF
+C5 w_233_78# a_n31_103# 20.03fF
+C6 w_86_84# a_n31_103# 9.68fF
+C7 a_n80_n148# a_n108_n141# 1.32fF
+C8 a_n80_n148# Gnd 10.82fF
+C9 a_n108_n141# Gnd 51.52fF
+C10 a_n36_n24# Gnd 14.78fF
+C11 a_315_n43# Gnd 8.62fF
+C12 a_110_n29# Gnd 11.02fF
+C13 a_n16_33# Gnd 9.343fF
+C14 a_n9_71# Gnd 10.58fF
+C15 a_n31_103# Gnd 62.69fF
+C16 w_233_78# Gnd 134.87fF
+C17 w_86_84# Gnd 73.42fF
+C18 w_n50_83# Gnd 87.83fF

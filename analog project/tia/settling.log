@@ -1,0 +1,31 @@
+Circuit: * C:\Users\rohan\OneDrive - International Institute of Information Technology (1)\Sem5\AIC\AIC_proj\AIC_project\analog project\tia\settling.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Nov 28 01:49:30 2022
+Total elapsed time: 0.081 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 677
+traniter = 670
+tranpoints = 326
+accept = 322
+rejected = 4
+matrix size = 11
+fillins = 0
+solver = Normal
+Matrix Compiler1: 656 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

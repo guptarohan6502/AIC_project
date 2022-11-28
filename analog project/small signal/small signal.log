@@ -1,0 +1,89 @@
+Circuit: * C:\Users\rohan\OneDrive - International Institute of Information Technology (1)\Sem5\AIC\AIC_proj\AIC_project\analog project\small signal\small signal.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:        m4          m3          m6          m8          m7
+Model:      cmosp       cmosp       cmosp       cmosn       cmosn
+Id:       -9.61e-06   -9.61e-06   -1.77e-04    2.00e-05    1.77e-04
+Vgs:      -5.86e-01   -5.86e-01   -6.01e-01    5.78e-01    5.50e-01
+Vds:      -6.01e-01   -5.86e-01   -9.00e-01    5.78e-01    9.00e-01
+Vbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:      -3.99e-01   -3.99e-01   -4.53e-01    4.66e-01    4.64e-01
+Vdsat:    -1.58e-01   -1.58e-01   -1.37e-01    1.04e-01    8.86e-02
+Gm:        9.52e-05    9.52e-05    2.03e-03    3.03e-04    3.02e-03
+Gds:       1.64e-07    1.66e-07    2.25e-05    3.41e-06    3.12e-05
+Gmb        3.04e-05    3.04e-05    6.39e-04    8.43e-05    8.45e-04
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     4.11e-14    4.11e-14    6.32e-14    4.25e-15    5.66e-14
+Cgdov:     4.11e-14    4.11e-14    6.32e-14    4.25e-15    5.66e-14
+Cgbov:     6.94e-18    6.94e-18    4.39e-19    4.69e-19    4.69e-19
+dQgdVgb:   3.11e-12    3.11e-12    4.31e-13    2.76e-14    3.61e-13
+dQgdVdb:  -4.27e-14   -4.29e-14   -6.32e-14   -4.15e-15   -5.54e-14
+dQgdVsb:  -2.92e-12   -2.92e-12   -3.55e-13   -2.20e-14   -2.82e-13
+dQddVgb:  -1.30e-12   -1.30e-12   -1.84e-13   -1.18e-14   -1.52e-13
+dQddVdb:   4.24e-14    4.25e-14    6.32e-14    4.19e-15    5.59e-14
+dQddVsb:   1.67e-12    1.67e-12    1.60e-13    9.93e-15    1.26e-13
+dQbdVgb:  -5.08e-13   -5.07e-13   -6.28e-14   -4.08e-15   -5.57e-14
+dQbdVdb:  -1.03e-15   -1.12e-15   -2.06e-17    8.60e-18    1.50e-16
+dQbdVsb:  -4.60e-13   -4.60e-13   -2.81e-14   -2.13e-15   -2.74e-14
+
+Name:        m5          m2          m1
+Model:      cmosn       cmosn       cmosn
+Id:        1.92e-05    9.61e-06    9.61e-06
+Vgs:       5.78e-01    5.39e-01    5.39e-01
+Vds:       3.61e-01    8.38e-01    8.52e-01
+Vbs:       0.00e+00   -3.61e-01   -3.61e-01
+Vth:       4.68e-01    4.95e-01    4.95e-01
+Vdsat:     1.03e-01    6.89e-02    6.89e-02
+Gm:        2.94e-04    1.97e-04    1.97e-04
+Gds:       3.95e-06    3.64e-07    3.63e-07
+Gmb        8.18e-05    4.96e-05    4.96e-05
+Cbd:       0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00
+Cgsov:     4.25e-15    8.50e-14    8.50e-14
+Cgdov:     4.25e-15    8.50e-14    8.50e-14
+Cgbov:     4.69e-19    5.97e-18    5.97e-18
+dQgdVgb:   2.76e-14    4.16e-12    4.16e-12
+dQgdVdb:  -4.16e-15   -8.31e-14   -8.31e-14
+dQgdVsb:  -2.19e-14   -3.54e-12   -3.54e-12
+dQddVgb:  -1.18e-14   -1.64e-12   -1.64e-12
+dQddVdb:   4.21e-15    8.39e-14    8.39e-14
+dQddVsb:   9.92e-15    1.98e-12    1.98e-12
+dQbdVgb:  -4.07e-15   -8.75e-13   -8.75e-13
+dQbdVdb:  -5.08e-18    2.03e-16    2.09e-16
+dQbdVsb:  -2.14e-15   -5.07e-13   -5.07e-13
+
+
+
+Date: Mon Nov 28 05:36:14 2022
+Total elapsed time: 0.076 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 7
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 15
+fillins = 2
+solver = Normal
+Matrix Compiler1: 980 bytes object code size
+Matrix Compiler2: 1.23 KB object code size
