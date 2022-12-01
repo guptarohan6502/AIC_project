@@ -1,0 +1,65 @@
+Circuit: * C:\Users\rohan\OneDrive - International Institute of Information Technology (1)\Sem5\AIC\AIC_proj\AIC_project\rohan\charecterization\char_nmos1.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter CALCACM
+Error on line 1221 : .model n18.3 nmos (  lmin = 1.2e-006 lmax = 1.02e-005 wmin = 2.05e-007 wmax = 5e-007  level = 49 version = 3.24  vth0 =  0.375165  lvth0 = -2.48902e-009 wvth0 = 4.28286e-009 pvth0 = -3.968e-016  k1 = 0.368742 lk1 = 2.42201e-007 wk1 = 5.07664e-008 pk1 = -8.97264e-014  k2 = 0.0316753 lk2 = -1.15082e-007 wk2 = -2.1718e-008 pk2 = 4.03828e-014  u0 =  -24.3374  lu0 = 0.000214714 wu0 = 0.000149421 pu0 = -1.43592e-010  ua = -4.24684e-009 lua = 2.56342e-015 wua = 1.58766e-015 pua = -1.62638e-021  ub = 3.68593e-018 lub = -1.63737e-024 wub = -8.62858e-025 pub = 9.66401e-031  uc = 2.76337e-011 luc = 1.6919e-017 wuc = 1.71609e-017 puc = -1.27522e-023  vsat = 130000 lvsat = 2.07431e-018 wvsat = 2.34805e-018 pvsat = 1.52305e-039  a0 = 1.93944 la0 = -4.40087e-007 wa0 = -9.32357e-008 pa0 = 1.25984e-013  ags = 0.416984 lags = 7.10182e-008 wags = 2.11436e-008 pags = 3.8192e-015  keta = 0.046052 lketa = 2.59671e-008 wketa = -9.87126e-009 pketa = -6.58247e-015  voff = -0.107988 lvoff = -1.59892e-008 wvoff = -3.295e-009 pvoff = 5.4064e-015  nfactor =  0.545191  lnfactor = 1.13395e-007 wnfactor = -2.98107e-008 pnfactor = 1.7856e-014  pclm = 8.89857 lpclm = -6.7208e-006 wpclm = 8.45214e-007 ppclm = -9.4488e-013  pdiblcb = 6.27273 lpdiblcb = -1.26255e-005 wpdiblcb = 1.87723e-022 ppdiblcb = -2.31211e-028  pscbe1 = 1.86886e+008 lpscbe1 = 54.6231 wpscbe1 = 11.4786 ppscbe1 = 3.6952e-005  pvag = 6.75972 lpvag = -5.43625e-006 wpvag = -9.29707e-007 ppvag = 1.06987e-012  ute = -0.807248 lute = -7.37642e-007 wute = -4.42414e-008 pute = 1.5867e-013  ua1 = 7.00157e-010 lua1 = 4.58304e-016 wua1 = 1.00612e-015 pua1 = -8.26336e-022  ub1 = -1.01619e-019 lub1 = -1.90771e-024 wub1 = -1.34994e-024 pub1 = 1.29853e-030  uc1 = 3.19034e-010 luc1 = -3.57318e-016 wuc1 = -1.59517e-016 puc1 = 1.78659e-022  at = 50000 lat = 9.29206e-018 wat = 1.53782e-018 pat = -1.89408e-024  kt1 = -0.30966 lkt1 = -8.28771e-008 wkt1 = 1.93171e-008 pkt1 = 1.72608e-014  kt2 = -0.0509517 lkt2 = 2.61346e-008 wkt2 = 1.8332e-008 pkt2 = -1.30294e-014  eta0 = 0.1872 leta0 = 3.54464e-023 weta0 = 5.86633e-024 peta0 = -7.22533e-030  etab = -0.1888 letab = 0 wetab = 0 petab = 0  pdiblc2 = 5.46854e-005 lpdiblc2 = -5.24768e-012 wpdiblc2 = -2.34271e-012 ppdiblc2 = 2.62384e-018  dwg = 0 dwb = 0  binunit = 2 mobmod = 1 capmod = 3 noimod = 2  paramchk = 1 delta = 0.01 tnom = 27 tox =  4e-009   toxm = 4e-009 nch = 4.06574e+017 xj = 1.5e-007 ngate = 0  rsh = 0 k3 = -4.827 k3b = 3.062 w0 = 1.39e-007  nlx =  1.605e-007  dvt0 =  2.483  dvt1 = 0.6728 dvt2 = -0.06749  dvt0w = -1.602 dvt1w = 5.3e+006 dvt2w = -0.032 dsub = 1.431  b0 = 0 b1 = 0 a1 = 0 a2 = 1  rdsw = 340.2 prwb = 0.04881 prwg = -0.2326 wr = 1  wint =  0  wl = 0 wln = 1 ww = 0  wwn = 1 wwl = 0 lint =  2.5e-008  ll = 0  lln = 0.18 lw = 0 lwn = 1 lwl = 0  cit = 0 cdsc = 0.00024 cdscb = 0 cdscd = 0  pdiblc1 = 0.05871 drout = 0.56 pscbe2 = 1e-005  alpha0 = 0 alpha1 = 0 beta0 = 30 js = 1.663e-005  jsw = 6.906e-011 nj = 1.427 ijth = 0.1 cj =  0.001151   mj = 0.409 pb = 0.75 cjsw =  2e-011  mjsw = 0.33  pbsw = 1 cjswg = 5e-010 mjswg = 0.33 pbswg = 1  cgdo =  2.2e-010  cgso =  2.2e-010  cgbo = 0 cgsl = 0  cgdl = 0 ckappa = 0.6 cf = 0 noff = 3  voffcv = -0.09 acde = 1.2 moin = 15 dlc= -1.42e-007   dwc = 0 llc = 9.7n lwc = 0 lwlc = 0  wlc = 0 wwc = 0 wwlc = 0 clc = 1e-007  cle = 0.6 elm = 2 xpart = 0.5 kt1l = 0  prt = 88.16 xti = 1 tpb = 0.0008538 tpbsw = 0.007691  tpbswg = 0 tcj = 0.0006691 tcjsw = 0.002736 tcjswg = 0  ef = 0.986 em = 5916433  noia = 7.943e+19 noib = 251188 noic = -2.511e-12  binflag = 1 lref = 1e14 wref = 1e14 tref = 25  xl = 0 xw = 0 lmlt = 1 wmlt = 1  rd = 0 rdc = 0 rs = 0 rsc = 0  acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+	* Unrecognized parameter "binflag" -- ignored
+	* Unrecognized parameter "lref" -- ignored
+	* Unrecognized parameter "wref" -- ignored
+	* Unrecognized parameter "lmlt" -- ignored
+	* Unrecognized parameter "wmlt" -- ignored
+	* Unrecognized parameter "rdc" -- ignored
+	* Unrecognized parameter "rsc" -- ignored
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+V1: Missing value, assumed 0V @ DC
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:        m1
+Model:      n18.3
+Id:        3.22e-12
+Vgs:       0.00e+00
+Vds:       1.80e+00
+Vbs:       0.00e+00
+Vth:       3.92e-01
+Vdsat:     3.75e-02
+Gm:        4.78e-11
+Gds:       4.47e-14
+Gmb        1.10e-11
+Cbd:       1.90e-15
+Cbs:       3.05e-15
+Cgsov:     1.10e-16
+Cgdov:     1.10e-16
+Cgbov:     0.00e+00
+dQgdVgb:   1.32e-15
+dQgdVdb:  -1.10e-16
+dQgdVsb:  -1.81e-16
+dQddVgb:  -1.47e-16
+dQddVdb:   2.01e-15
+dQddVsb:   4.56e-17
+dQbdVgb:  -1.02e-15
+dQbdVdb:  -1.90e-15
+dQbdVsb:  -3.07e-15
+
+
+
+Date: Thu Dec 01 13:42:06 2022
+Total elapsed time: 0.090 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 4
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1: 118 bytes object code size
+Matrix Compiler2: 216 bytes object code size

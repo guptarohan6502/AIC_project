@@ -40,14 +40,69 @@ Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecogni
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:        m4          m3          m6          m5          m2
+Model:      p18.4       p18.4       n18.4       n18.4       n18.4
+Id:       -3.60e-06   -3.59e-06    6.00e-06    7.19e-06    3.60e-06
+Vgs:      -4.75e-01   -4.75e-01    4.69e-01    4.69e-01    6.41e-01
+Vds:      -6.01e-01   -4.75e-01    4.69e-01    5.59e-01    6.40e-01
+Vbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00   -5.59e-01
+Vth:      -4.19e-01   -4.19e-01    4.81e-01    4.81e-01    5.73e-01
+Vdsat:    -8.57e-02   -8.57e-02    6.93e-02    6.93e-02    1.11e-01
+Gm:        6.14e-05    6.11e-05    1.11e-04    1.32e-04    5.48e-05
+Gds:       1.34e-07    1.63e-07    1.06e-05    1.58e-05    1.29e-07
+Gmb        1.91e-05    1.90e-05    2.33e-05    2.77e-05    8.55e-06
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     6.50e-15    6.50e-15    3.74e-15    3.74e-15    6.60e-16
+Cgdov:     6.50e-15    6.50e-15    3.74e-15    3.74e-15    6.60e-16
+Cgbov:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+dQgdVgb:   1.51e-13    1.51e-13    8.44e-14    8.44e-14    1.71e-14
+dQgdVdb:  -6.55e-15   -6.62e-15   -3.79e-15   -3.77e-15   -6.67e-16
+dQgdVsb:  -1.14e-13   -1.14e-13   -6.43e-14   -6.43e-14   -1.45e-14
+dQddVgb:  -5.77e-14   -5.78e-14   -3.28e-14   -3.28e-14   -7.19e-15
+dQddVdb:   6.55e-15    6.60e-15    3.78e-15    3.76e-15    6.65e-16
+dQddVsb:   6.82e-14    6.83e-14    3.55e-14    3.55e-14    7.58e-15
+dQbdVgb:  -3.53e-14   -3.53e-14   -1.87e-14   -1.87e-14   -2.75e-15
+dQbdVdb:  -4.08e-17   -8.89e-17   -2.68e-17   -1.55e-17   -3.30e-18
+dQbdVsb:  -2.88e-14   -2.89e-14   -1.04e-14   -1.04e-14   -1.32e-15
 
-Date: Mon Nov 28 21:43:46 2022
-Total elapsed time: 0.053 seconds.
+Name:        m1
+Model:      n18.4
+Id:        3.59e-06
+Vgs:       6.40e-01
+Vds:       7.66e-01
+Vbs:      -5.59e-01
+Vth:       5.73e-01
+Vdsat:     1.10e-01
+Gm:        5.47e-05
+Gds:       1.53e-07
+Gmb        8.53e-06
+Cbd:       0.00e+00
+Cbs:       0.00e+00
+Cgsov:     6.60e-16
+Cgdov:     6.60e-16
+Cgbov:     0.00e+00
+dQgdVgb:   1.71e-14
+dQgdVdb:  -6.64e-16
+dQgdVsb:  -1.45e-14
+dQddVgb:  -7.18e-15
+dQddVdb:   6.63e-16
+dQddVsb:   7.57e-15
+dQbdVgb:  -2.76e-15
+dQbdVdb:  -1.83e-18
+dQbdVsb:  -1.32e-15
+
+
+
+Date: Thu Dec 01 10:21:34 2022
+Total elapsed time: 0.126 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 6
+totiter = 8
 traniter = 0
 tranpoints = 0
 accept = 0
@@ -55,5 +110,5 @@ rejected = 0
 matrix size = 15
 fillins = 0
 solver = Normal
-Matrix Compiler1:      42 opcodes
+Matrix Compiler1: 730 bytes object code size
 Matrix Compiler2: 1.05 KB object code size
