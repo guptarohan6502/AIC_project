@@ -75,8 +75,6 @@ Warning: Pd = 2.09e-005 is less than W.
 Warning: Ps = 2.09e-005 is less than W.
 Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
 Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
-Warning: Pd = 2.09e-005 is less than W.
-Warning: Ps = 2.09e-005 is less than W.
 Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
 Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
 Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
@@ -84,13 +82,13 @@ Warning: Pd = 2.09e-005 is less than W.
 Warning: Ps = 2.09e-005 is less than W.
 Direct Newton iteration for .op point succeeded.
 
-Date: Fri Dec 02 07:18:25 2022
-Total elapsed time: 0.125 seconds.
+Date: Fri Dec 02 07:51:15 2022
+Total elapsed time: 0.219 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 18
+totiter = 16
 traniter = 0
 tranpoints = 0
 accept = 0
