@@ -1,31 +1,31 @@
 * C:\Users\Rohan\Desktop\aic\AIC_project\rohan\two stage\small signal\small  signal.asc
-M4 N003 N003 0 0 n18.9 l=5u w=25u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M4 N003 N003 0 0 n18.9 l=3u w=30u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
 Vdd VDD 0 1.8
 M10 a b VDD VDD p18.6 l=1.2u w=1.2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
 M9 b b VDD VDD p18.6 l=1.2u w=1.2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
-M3 N002 N002 0 0 n18.9 l=5u w=25u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
-M1 N002 in_n a a p18.7 l=180n w=20u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
-M2 N003 in_p a a p18.7 l=180n w=20u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M3 N002 N002 0 0 n18.9 l=3u w=30u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M1 N002 in_n a a p18.7 l=180n w=100u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M2 N003 in_p a a p18.7 l=180n w=100u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
 M8 d c VDD VDD p18.9 l=10u w=2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
 M7 c c VDD VDD p18.9 l=10u w=2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
-M5 c N002 0 0 n18.9 l=5u w=25u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
-M6 f N003 0 0 n18.9 l=5u w=25u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
-Ibias b 0 6µ
-M11 out N001 d d p18.8 l=0.9u w=90u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
-M12 out P001 f f n18.9 l=5u w=20u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
-Cl out 0 1p
+M5 c N002 0 0 n18.9 l=3u w=30u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M6 f N003 0 0 n18.9 l=3u w=30u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+Ibias b 0 8µ
+M11 out N001 d d p18.8 l=3.2u w=6.4u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M12 out P001 f f n18.9 l=5u w=55u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+Cl out 0 1f
 V1 in_p 0 SINE(0.01 25m 1k) AC 1
-V2 N001 0 0.5
-V3 P001 0 1.45
+V2 N001 0 -0.2
+V3 P001 0 1
 V4 in_n 0 SINE(0.01 -25m 1k) AC 1 180
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\Rohan\Documents\LTspiceXVII\lib\cmp\standard.mos
 .lib 'ts18sl_scl.lib' tt_18
 .param L = 1u W=10u n = 1 LAMBDA = 0.09u
-;op
-.ac dec 1000 1 10G
+.op
+;ac dec 1000 1 10G
 ;dc V2 -1 1 1000
-;noise V(out) v1 dec 1000 1 12K
+.noise V(out) v1 dec 1000 1 5.44MEG
 .backanno
 .end

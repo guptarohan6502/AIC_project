@@ -1,0 +1,31 @@
+* C:\Users\Rohan\Desktop\aic\AIC_project\rohan\two stage\psrr\psrr.asc
+M4 N005 N005 0 0 n18.9 l=3u w=27u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+Vdd VDD 0 1.8
+M10 N003 N001 VDD VDD p18.6 l=1.2u w=1.2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M9 N001 N001 VDD VDD p18.6 l=1.2u w=1.2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M3 N004 N004 0 0 n18.9 l=3u w=27u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M1 N004 in_n N003 N003 p18.7 l=180n w=80u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M2 N005 in_p N003 N003 p18.7 l=180n w=80u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M8 d c VDD VDD p18.9 l=9u w=2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M7 c c VDD VDD p18.9 l=9u w=2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M5 c N004 0 0 n18.9 l=3u w=27u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M6 f N005 0 0 n18.9 l=3u w=27u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+Ibias N001 0 8µ
+M11 out N002 d d p18.8 l=1u w=90u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M12 out P001 f f n18.9 l=5u w=40u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+Cl out 0 1f
+V1 in_p 0 1 AC 1 0
+V2 N002 0 0.1
+V3 P001 0 0.8
+V4 in_n 0 SINE(0.01 25m 1k) AC 1 180
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Rohan\Documents\LTspiceXVII\lib\cmp\standard.mos
+.lib 'ts18sl_scl.lib' tt_18
+.param L = 1u W=10u n = 1 LAMBDA = 0.09u
+;op
+.ac dec 1000 1 10G
+;dc V1 0 1.8 0.001
+;noise V(out) v1 dec 1000 1 1G
+.backanno
+.end

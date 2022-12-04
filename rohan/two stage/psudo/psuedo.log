@@ -1,0 +1,33 @@
+Circuit: * C:\Users\Rohan\Desktop\aic\AIC_project\rohan\two stage\psudo\psuedo.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter CALCACM
+Error on line 1229 : .model p18llb3.0 pmos level = 49 lmin = 1.2e-006 lmax = 1.0001e-005 wmin = 1e-005 wmax = 0.000100001 version = 3.24 mobmod = 1 capmod = 3 binunit = 2 binflag = 0 lref = 1.2e-006 wref = 1e-005 tref = 27 xl = 0 xw = 0 lmlt = 1 wmlt = 1 tox =  4e-009  wint =  0  lint =  -5e-009  dlc =  -4.5e-008  dwc = 0 hdif = 1.5e-007 ldif = 0 llc =  1.05e-014  ll = 0 wl = 0 lln = 1 wln = 1 lw = 0 ww = 0 lwn = 1 wwn = 1 lwl = 0 wwl = 0 cgbo = 0 cgso =  1.7e-010  cgdo =  1.7e-010  xpart = 1 vth0 =  -0.46536799  lvth0 = -4.8507136e-008 k1 = 0.49800287 lk1 = 5.0195318e-008 k2 = 0.0032989594 lk2 = -3.9463881e-008 k3 = 0 k3b = 0 nlx =  0  dvt0 =  0  dvt1 =  0  dvt2 = 0 dvt0w = 0 dvt1w = 0 dvt2w = 0 nch = 4.96e+017 voff = -0.10842775 lvoff = -1.9044545e-009 nfactor =  1  cdsc = 0 cdscb = 0 cdscd = 6.3836906e-005 lcdscd = -1.9190864e-011 cit = 0.0003177652 lcit = -1.0930301e-010 u0 = 0.0098461434 lu0 = -1.1581036e-009 ua =  4.6650706e-010  lua = -2.6926636e-017 ub = 8.565322e-019 lub = 4.3449955e-026 uc = -1.5938156e-010 luc = 8.21145e-018 ngate = 1e+023 xj = 1.5000001e-007 w0 = 0 prwg = 0.2 prwb = -0.1048363 lprwb = -2.2742045e-008 wr = 1 rdsw = 10 a0 = 0.886493 la0 = -1.25616e-007 ags = 0.02 a1 = 0 a2 = 0.4 b0 = 0 b1 = 0 vsat = 500000 keta = 0.021475664 lketa = -3.9853784e-008 dwg = 0 dwb = 0 alpha0 = 0 beta0 = 30 pclm = 5 pdiblc1 = 0 pdiblc2 = 0.1 pdiblcb = 0.42419845 lpdiblcb= -9.0865145e-007 drout = 0 pvag = 0 pscbe1 = 7.071068e+008 pscbe2 = 1e-020 delta = 0.01 eta0 = 0 etab = -0.00091371568 letab = 1.0964588e-009 dsub = 0 elm = 5 clc = 1e-007 cle = 0.6 cf = 0 ckappa = 0.6 cgdl = 0 cgsl = 0 vfbcv = -1 acde = 1 moin = 15 noff = 2 voffcv = -0.15 kt1 = -0.23818598 lkt1 = 1.1776773e-008 kt1l = 0 kt2 = -0.034489231 lkt2 = 3.6149141e-009 ute = -0.78301062 lute = 1.6105418e-007 ua1 = 1.2173355e-009 lua1 = -1.7335514e-016 ub1 = -1.7064986e-018 lub1 = 4.8304336e-025 uc1 = 5.2944697e-011 luc1 = 1.4283327e-017 prt = -1.7347391e-005 lprt = -5.2044289e-010 at = 1499011.8 lat = -1.207722 rsh = 0 js = 1.775e-006 jsw = 1e-018 nj = 1.127  ijth = 0.001416 cj =  0.0009621  mj = 0.3626 pb = 0.775  cjsw =  2.8e-011  mjsw = 0.05 pbsw = 1 cjswg = 5e-010  mjswg = 0.33 pbswg = 1 xti = 1.311  tpb = 0.0008294 tpbsw = 0 tpbswg = 0 tcj = 0.0006115  tcjsw = 0 tcjswg = 0  acm = 12 calcacm = 1
+	* Unrecognized parameter "binflag" -- ignored
+	* Unrecognized parameter "lref" -- ignored
+	* Unrecognized parameter "wref" -- ignored
+	* Unrecognized parameter "lmlt" -- ignored
+	* Unrecognized parameter "wmlt" -- ignored
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.24
+
+Date: Fri Dec 02 20:11:23 2022
+Total elapsed time: 0.142 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 406
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 2
+fillins = 0
+solver = Normal
+Matrix Compiler1:       2 opcodes  0.0/[0.0]/0.1
+Matrix Compiler2: 96 bytes object code size  0.0/0.1/[0.0]
+

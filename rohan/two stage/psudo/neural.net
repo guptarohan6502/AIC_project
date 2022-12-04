@@ -1,0 +1,40 @@
+* C:\Users\Rohan\Desktop\aic\AIC_project\rohan\two stage\psudo\neural.asc
+M4 N015 N015 0 0 n18.9 l=3u w=27u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+Vdd VDD 0 1.8
+M10 VDD N009 N010 N006 p18.6 l=1.2u w=1.2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M9 VDD N009 N009 N005 p18.6 l=1.2u w=1.2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M3 N014 N014 0 0 n18.9 l=3u w=27u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M1 N010 in_n N014 N010 p18.7 l=180n w=80u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M8 VDD N001 N003 VDD p18.9 l=9u w=2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M7 VDD N001 N001 VDD p18.9 l=9u w=2u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M5 N001 N014 0 0 n18.9 l=3u w=27u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M6 N012 N015 0 0 n18.9 l=3u w=27u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+Ibias N009 0 8µ
+M11 N003 N008 out N003 p18.8 l=0.9u w=90u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+M12 out P001 N012 N012 n18.9 l=2u w=40u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+V1 N011 0 SINE(0.01 -25m 1k) AC 1 180
+V2 N008 0 -0.2V
+V3 P001 0 0.8
+V4 N004 0 SINE(0.01 25m 1k) AC 1 0
+C1 in_plus N011 200p
+C3 in_n N004 200p
+C2 in_plus 0 200f
+C4 out in_n 200f
+Cl out 0 1f
+M13 N013 in_plus in_plus N013 p18llb3.0 l=4u w=4u ad=1.8p as=1.8p pd=8.9u ps=8.9u
+M14 0 N013 N013 N016 p18llb3.0 l=4u w=4u ad=1.8p as=1.8p pd=8.9u ps=8.9u
+M15 N002 in_n in_n N002 p18llb3.0 l=4u w=4u ad=1.8p as=1.8p pd=8.9u ps=8.9u
+M16 out N002 N002 N007 p18llb3.0 l=4u w=4u ad=1.8p as=1.8p pd=8.9u ps=8.9u
+M2 N010 in_plus N015 N010 p18.7 l=180n w=80u ad={5*W*LAMBDA} as={5*W*LAMBDA} pd={10*LAMBDA+2*W} ps={10*LAMBDA+2*W}
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Rohan\Documents\LTspiceXVII\lib\cmp\standard.mos
+.lib 'ts18sl_scl.lib' tt_18
+.param L = 1u W=10u n = 1 LAMBDA = 0.09u
+.op
+.ac dec 1000 1 10G
+;dc V3 0 3 0.001
+;noise V(out) v1 dec 1000 1 1G
+.lib 'ts18sl_scl.lib' tt_18dll
+.backanno
+.end
